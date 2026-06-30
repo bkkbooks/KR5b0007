@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0007/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0007/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上洞玄靈寶三元無量壽經
+  date: '2015-08-28 23:47:05.336696'
+  source:
+    repository: kanripo
+    path: KR5b0007
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0007_000-HFL.yaml, hash: 'sha256:bbfd04890b37c9f4f5c20fc07057826b670fa2cf8ae744b57c80ac8e6db4ab00'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0007_000-HFL.markers.yaml, hash: 'sha256:fc7432fbc8ef6c6ed2de02981e85012278a1526778bdcdb01a9c1118cad70b27'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0007_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4385
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:336c26016dd94e4de245294b371d1e36ab834545cccb0c84203339d099276770
